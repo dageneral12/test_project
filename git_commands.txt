@@ -1,0 +1,49 @@
+_____________________________________________________________
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ ls -Al
+total 12
+drwxr-xr-x 1 Nikita_work 197121   0 Apr 18 12:10 .git/
+-rw-r--r-- 1 Nikita_work 197121   0 Apr 18 00:02 aws_app
+-rw-r--r-- 1 Nikita_work 197121  32 Apr 18 00:07 aws_app.py
+-rw-r--r-- 1 Nikita_work 197121 158 Apr 17 23:54 aws-server.txt
+____________________________________________________________
+-Al - extended statistics 
+
+____________________________________________________________
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ ls -Al .git
+total 13
+-rw-r--r-- 1 Nikita_work 197121 191 Apr 18 12:10 config
+-rw-r--r-- 1 Nikita_work 197121  73 Apr 18 11:00 description
+-rw-r--r-- 1 Nikita_work 197121  23 Apr 18 11:00 HEAD
+drwxr-xr-x 1 Nikita_work 197121   0 Apr 18 11:00 hooks/
+drwxr-xr-x 1 Nikita_work 197121   0 Apr 18 11:00 info/
+drwxr-xr-x 1 Nikita_work 197121   0 Apr 18 11:00 objects/
+drwxr-xr-x 1 Nikita_work 197121   0 Apr 18 11:00 refs/
+
+
+$ git config --global user.name "Nikita Tihhomirov"	#Config the user name to sign the changes
+
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ git config --global user.email "dageneral@gmail.com" #Config the user email to sign the changes
+
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ git config --global user.email dageneral@gmail.com  #Config the user email to sign the changes
+
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ git status        # Shows if there are any commits
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed) # Shows that none of the changes are tracked
+								 # in any of the files in the folder	
+        aws-server.txt
+        aws_app
+        aws_app.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nikita_work@Nikita_work18 MINGW64 ~/aws_application (master)
+$ git add .

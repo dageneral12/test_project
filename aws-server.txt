@@ -1,0 +1,5 @@
+ec2-3-135-223-144.us-east-2.compute.amazonaws.com
+
+sudo apt-get install mc
+sudo apt-get install nginx - install nginx server
+ps afx - launch nginx server 
